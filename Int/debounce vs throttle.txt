@@ -1,0 +1,8 @@
+
+
+
+
+
+`````` debounce is for search filed , input waits for 300ms after type complete until you hit API . 
+
+`````` throttle is for button events, no matter ow many number of times u hit click , fires event once after 300 ms 

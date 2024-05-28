@@ -1,0 +1,8 @@
+@use "partials"; // this way we can import another scss file in to a new scss file
+
+body {
+  background-color: partials.$base-color;
+}
+
+// partials are created with "_" prefix in file name . When they are imported in another scss file we can reuse the variable from previous scss file
+// loaders are needed to convert non js files like css, scss into system
